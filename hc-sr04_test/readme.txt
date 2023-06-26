@@ -1,0 +1,1 @@
+Make sure you have connected the HC-SR04 sensor's trigger pin to Arduino digital pin 2, echo pin to Arduino digital pin 3, and an LED (with a current-limiting resistor) to Arduino digital pin 13.

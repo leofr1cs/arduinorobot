@@ -7,6 +7,7 @@ int revleft4 = 4;       //REVerse motion of Left motor
 int fwdleft5 = 5;       //ForWarD motion of Left motor
 int revright6 = 6;      //REVerse motion of Right motor
 int fwdright7 = 7;      //ForWarD motion of Right motor
+
 long duration, distance;
 
 void setup() {
@@ -19,9 +20,7 @@ void setup() {
   pinMode(fwdright7, OUTPUT);
   pinMode(trigPin, OUTPUT);         // set trig pin as output
   pinMode(echoPin, INPUT);          //set echo pin as input to capture reflected waves
-
 }
-
 
 void loop() {
 
